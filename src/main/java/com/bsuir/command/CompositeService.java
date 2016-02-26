@@ -7,6 +7,8 @@ import com.bsuir.composite.Ñircle;
 public class CompositeService implements Command {
 
 	public void execute() {
+		
+		System.out.println("Composite pattern executing:");
 
 		CompositeGraphic genericComposite = new CompositeGraphic();
 		CompositeGraphic compositeGraphic2 = new CompositeGraphic();

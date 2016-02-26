@@ -10,6 +10,7 @@ import com.bsuir.factory.Creator;
 public class FactoryService implements Command {
 
 	public void execute() {
+		System.out.println("Factory pattern executing:");
 
 		List<Creator> creatorList = new ArrayList<Creator>();
 		creatorList.add(new ConcreteCreatorA());
